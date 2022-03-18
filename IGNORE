@@ -19,6 +19,6 @@ elseif TYPE == "memes" then
     elseif SUB == 2 then
         RAN = math.floor(math.random(14,20))
     elseif SUB == 3 then
-        RAN = math.floor(math.random(27,31))
+        RAN = math.floor(math.random(27,32))
     end
 end
