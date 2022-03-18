@@ -1,0 +1,24 @@
+local RAN = nil
+if TYPE == "all" then
+RAN = math.floor(math.random(1,26))
+elseif TYPE == "anime" then
+    local SUB = math.floor(math.random(1,3))
+    if SUB == 1 then
+        RAN = math.floor(math.random(1,2))
+    elseif SUB == 2 then
+        RAN = math.floor(math.random(21,24))
+    else
+        RAN = 26
+    end
+elseif TYPE == "normal" then
+    RAN = math.floor(math.random(3,20))
+elseif TYPE == "memes" then
+    local SUB = math.floor(math.random(1,3))
+    if SUB == 1 then
+        RAN = math.floor(math.random(3,4))
+    elseif SUB == 2 then
+        RAN = math.floor(math.random(14,20))
+    elseif SUB == 3 then
+        RAN = math.floor(math.random(27,31))
+    end
+end
