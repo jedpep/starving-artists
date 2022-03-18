@@ -16,3 +16,4 @@ for i=1,1024 do
    print(i, r-(r%lq),g-(g%lq),b-(b%lq))
    color_pixel(i,Color3.fromRGB(r-(r%lq),g-(g%lq),b-(b%lq)))
 end
+print("Name : Staring Cat")
